@@ -1,0 +1,60 @@
+{
+    "results" : [
+       {
+          "address_components" : [
+             {
+                "long_name" : "88470-000",
+                "short_name" : "88470-000",
+                "types" : [ "postal_code" ]
+             },
+             {
+                "long_name" : "Rancho Queimado",
+                "short_name" : "Rancho Queimado",
+                "types" : [ "administrative_area_level_2", "political" ]
+             },
+             {
+                "long_name" : "State of Santa Catarina",
+                "short_name" : "SC",
+                "types" : [ "administrative_area_level_1", "political" ]
+             },
+             {
+                "long_name" : "Brazil",
+                "short_name" : "BR",
+                "types" : [ "country", "political" ]
+             }
+          ],
+          "formatted_address" : "Rancho Queimado - State of Santa Catarina, 88470-000, Brazil",
+          "geometry" : {
+             "bounds" : {
+                "northeast" : {
+                   "lat" : -27.5848141,
+                   "lng" : -48.9514556
+                },
+                "southwest" : {
+                   "lat" : -27.7738787,
+                   "lng" : -49.2029872
+                }
+             },
+             "location" : {
+                "lat" : -27.6728835,
+                "lng" : -49.1019233
+             },
+             "location_type" : "APPROXIMATE",
+             "viewport" : {
+                "northeast" : {
+                   "lat" : -27.5848141,
+                   "lng" : -48.9514556
+                },
+                "southwest" : {
+                   "lat" : -27.7738787,
+                   "lng" : -49.2029872
+                }
+             }
+          },
+          "place_id" : "ChIJi3Oum2--IJURCU5YeSkOQMY",
+          "types" : [ "postal_code" ]
+       }
+    ],
+    "status" : "OK"
+ }
+ 
