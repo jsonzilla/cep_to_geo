@@ -64,8 +64,10 @@ def extract_data(json_data):
             s_lng = result[u"bounds"][u"southwest"][u"lng"]
         geo_data = [lat, lng, g_type, n_lat, n_lng, s_lat, s_lng]
         return geo_data
-    except:
-        geo_data = ["", "", "", "", "", "", ""] 
+    except ValueError:
+        print "Could not convert data to an integer."
+    else:
+        geo_data = ["", "", "", "", "", "", ""]
         return geo_data
 
 def main(argv):

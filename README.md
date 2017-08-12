@@ -1,4 +1,6 @@
 # cep2geo
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7920e2ebdf1347fcb55b1e9e3a787b60)](https://www.codacy.com/app/0unit/cep2geo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=0unit/cep2geo&amp;utm_campaign=Badge_Grade)
+
  Query geolocation with base of a brazilian zip code (cep)
 
 ```

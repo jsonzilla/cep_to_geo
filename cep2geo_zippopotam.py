@@ -58,7 +58,9 @@ def extract_data(json_data):
             lng = result[u"longitude"]
         geo_data = [lat, lng]
         return geo_data
-    except:
+    except ValueError:
+        print "Could not convert data to an integer."
+    else:
         geo_data = ["", ""]
         return geo_data
 
@@ -71,11 +73,11 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
-        print 'cep2geo.py -i <inputfile> -o <outputfile>'
+        print 'cep2geo_zippopotam.py -i <inputfile> -o <outputfile>'
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print 'cep2geo.py -i <inputfile> -o<inputfile>'
+            print 'cep2geozippopotam.py -i <inputfile> -o<inputfile>'
             sys.exit()
         elif opt in ("-i", "--ifile"):
             inputfile = arg
